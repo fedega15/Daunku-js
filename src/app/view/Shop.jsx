@@ -15,7 +15,7 @@ import Image from "next/image";
 
 const Shop = () => {
   return (
-    <div id="shop" className="pb-[50px] pt-[20px] bg-[#C1D0E4] px-10 max-w-[1490px] mx-auto">
+    <div id="shop" className="pb-[50px] pt-[20px] bg-white px-10 max-w-[1490px] mx-auto">
       <FadeIn delay={0.2} direction="down">
         <h1 className="text-5xl lg:text-[64px] font-medium text-fontBlack mb-6 text-center">
           {shopTitle}
