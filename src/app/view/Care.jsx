@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const Care = () => {
   return (
-    <div id="care" className="px-10 max-w-[1490px] mx-auto mb-[160px]">
+    <div id="care" className="px-10 max-w-[1490px] bg-[#e3e4e6] mx-auto mb-[160px]">
       <FadeIn delay={0.2} direction="down">
         <h1 className="text-5xl lg:text-[64px] font-medium text-fontBlack mb-6 text-center">
           {careTitle}
