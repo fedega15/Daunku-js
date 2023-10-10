@@ -11,7 +11,7 @@ import Image from "next/image";
 
 const Products = () => {
   return (
-  <div id="products" className=" flex flex-col bg-[#C1D0E4] 2xl:flex-row gap-[128px]  2xl:gap-2 2xl:justify-between mt-[160px] 2xl:pt-[130px] mb-[160px] max-w-[1490px] mx-auto px-10 w-full">
+  <div id="products" className=" flex flex-col bg-[#f4f5f7] 2xl:flex-row gap-[128px]  2xl:gap-2 2xl:justify-between mt-[160px] 2xl:pt-[130px] pb-[160px] max-w-[1490px] mx-auto px-10 w-full">
     <FadeIn delay={0.2} direction="right">
       <div className="flex flex-col">
         <h1 className="text-center 2xl:text start text-fontBlack text-5xl lg:text-[64px] font-medium mb-6 ">
