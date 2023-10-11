@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Services = () => {
   return (
-  <div id="services" className="mt-[80px] max-w-[1490px] mx-auto px-10 flex flex-col xs:flex-row gap-12 xs:gap-6 xs:justify-between w-full ">
+  <div id="services" className="mt-[80px] max-w-[1490px] pt-[100px] mx-auto px-10 flex flex-col xs:flex-row gap-12 xs:gap-6 xs:justify-between w-full ">
     {services.map((service, i) => (
         <FadeIn key={i} delay={0.2} direction="down">
           <div className="flex flex-col lg:flex-row gap-4 w-full items-center">

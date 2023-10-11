@@ -9,8 +9,8 @@ const NavLink = ({ children, href, offset = -50, mobileMenu = false }) => {
   return (
     <a
       href={href}
-      spy={true}
-      smooth={true}
+      /* spy={true} */
+      /* smooth={true} */
       offset={offset}
       duration={1000}
       className={className}

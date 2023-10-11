@@ -37,17 +37,20 @@ export const productsBtnText = "Mira nuestro Shop";
 export const products = [
   {
     title: "Golden Pot",
-    price: "$65.99",
+    coment:"Planta Amazonica, Humedad 50%, Temperatura 25ª",
+    price: "$650.99",
     img: productOneIcon,
   },
   {
-    title: "Rubber Plant",
-    price: "$75.00",
+    title: "Ruber Plant",
+    coment:"Planta Amazonica, Humedad 50%, Temperatura 25ª",
+    price: "$750.00",
     img: productTwoIcon,
   },
   {
-    title: "Cast Iron Plant",
-    price: "$88.50",
+    title: "C.Iron Plant",
+    coment:"Planta Amazonica, Humedad 50%, Temperatura 25ª",
+    price: "$880.50",
     img: productThreeIcon,
   },
 ];

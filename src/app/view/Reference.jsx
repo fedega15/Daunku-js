@@ -10,7 +10,7 @@ import Image from "next/image";
 
 const Reference = () => {
   return (
-    <div id="reference" className="pb-[160px] pb-[20px] pt-[20px]   bg-[#d1d5da] px-10 max-w-[1490px] mx-auto">
+    <div id="reference" className="pb-[130px]  pt-[100px]   bg-[#d1d5da] px-10 max-w-[1490px] mx-auto">
       <FadeIn delay={0.2} direction="down">
         <h1 className="text-5xl lg:text-[64px] font-medium text-fontBlack mb-6 text-center">
           {referenceTitle}
